@@ -1,0 +1,54 @@
+.single_item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin: 5px;
+   border-bottom: 2px solid gray;
+ }
+ .single_item p {
+   font-weight: bold
+ }
+ 
+ .list_container{
+   margin-top: 30px;
+   width: 60%;
+   display: flex;
+   justify-content: center;
+ 
+   flex-direction: column;
+ }
+
+ .edit_button{
+   height: 36px;
+   width: 100px;
+   margin-left: 5px;
+   border-radius: 5%;
+   box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.626);
+ }
+ 
+ .delete_button{
+   height: 36px;
+   width: 100px;
+   background-color: rgba(216, 79, 79, 0.311);
+   margin-left: 5px;
+   border-radius: 5%;
+   box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.626);
+ }
+ .complete_button{
+   height: 36px;
+   width: 100px;
+   background-color: rgba(65, 234, 124, 0.457);
+   margin-left: 5px;
+   border-radius: 5%;
+   box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.626);
+ }
+ .incomplete_button{
+   height: 36px;
+   width: 100px;
+   background-color: rgba(218, 135, 53, 0.691);
+   margin-left: 5px;
+   border-radius: 5%;
+   box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.626);
+   
+ }

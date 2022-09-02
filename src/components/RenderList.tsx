@@ -4,6 +4,7 @@ import { StoreDispatch } from "../redux/store";
 import { deleteTodo, setComplete, editTodo } from "../redux/todoSlice";
 import React from "react";
 
+import "../css/RenderList.css";
 interface IRenderListProp {
   todoList: Todo[];
   setSelectedItem: React.Dispatch<React.SetStateAction<any>>;

@@ -4,6 +4,7 @@ import { StoreDispatch } from "../redux/store";
 import { editTodo } from "../redux/todoSlice";
 import React, { useState } from "react";
 
+import "../css/Edit.css";
 interface IRenderListProp {
   setOpenEdit: React.Dispatch<React.SetStateAction<any>>;
   setSelectedItem: React.Dispatch<React.SetStateAction<any>>;
