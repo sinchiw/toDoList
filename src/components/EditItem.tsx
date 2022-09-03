@@ -22,7 +22,7 @@ const EditItem: React.FC<IRenderListProp> = ({
   const dispatch = useDispatch<StoreDispatch>();
 
   const editItem = (id: string, description: string) => {
-    if (openEdit === true) {
+    if (openEdit === true && term) {
       setOpenEdit(false);
       dispatch(editTodo({ id: id, description: description }));
       setSelectedItem("");
